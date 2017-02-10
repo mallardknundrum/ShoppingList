@@ -17,7 +17,7 @@ class ShoppingListTableViewCell: UITableViewCell {
     
     var item: Item? {
         didSet {
-            
+            updateViews()
         }
     }
    
