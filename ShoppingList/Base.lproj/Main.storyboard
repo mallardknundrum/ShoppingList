@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="shoppingListCell" id="06i-Gx-3LN">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="shoppingListCell" id="06i-Gx-3LN" customClass="ShoppingListButtonTableViewCell" customModule="ShoppingList" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="06i-Gx-3LN" id="deW-BR-Maw">
@@ -61,7 +61,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="WBG-JD-E9C">
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="qXL-eO-M3E"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="qXL-eO-M3E"/>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="thu-Uy-e9r" userLabel="First Responder" sceneMemberID="firstResponder"/>
