@@ -33,6 +33,10 @@ class ItemController {
     }
     
     // MARK: - Update
+    func toggleIsCompleteButton(for item: Item) {
+        item.isComplete = !item.isComplete
+        saveToPersistentStore()
+    }
     
     
     // MARK: - Delete
