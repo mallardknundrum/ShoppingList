@@ -31,6 +31,7 @@ class ShoppingListTableViewController: UITableViewController, ItemButtonTableVie
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("Hold on to your butts...")
         
     }
     
